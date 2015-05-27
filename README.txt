@@ -89,3 +89,17 @@ password=PASSWORD
 gem install sass --user-install
 add-apt-repository ppa:webupd8team/java && apt-get update && apt-get install oracle-java8-installer && java -version
 
+-------------------------------------
+
+local only
+
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
+sudo add-apt-repository ppa:webupd8team/java
+apt-get purge openjdk*
+apt-get update
+apt-get install skype dropbox google-chrome-stable mc htop iftop git gitg unetbootin p7zip-full openssh-server vlc meld nmap curl iptraf gparted php5 apache2 mysql-server filezilla mysql-workbench oracle-java8-installer
+apt-get install wine
+apt-get install node npm
+
+intstall nginx see above ^
+maybe you want teamviwer
